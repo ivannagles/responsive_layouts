@@ -23,6 +23,7 @@
 
 .head__navegacion {
     text-align: center;
+    width: 90%;
 }
 
 .head__enlace {
@@ -34,3 +35,4 @@
     margin-bottom: 1.25rem;
     margin-left: .7rem;
 }
+
