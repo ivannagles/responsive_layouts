@@ -1,6 +1,5 @@
 .head {
-    color: #FFFFFF;
-
+    color: var(--background-blanco);
     width: 100%;
 
     box-sizing: border-box;
@@ -12,7 +11,7 @@
     padding-top: .75rem;
     padding-bottom: .75rem;
 
-    border-bottom: 1px solid #103D4A;
+    border-bottom: 1px solid var(--border-cabecera-mobile);
 
     position: absolute;
 }
@@ -23,16 +22,24 @@
 
 .head__navegacion {
     text-align: center;
-    width: 90%;
+    font-family: var(--open-sans);
 }
 
 .head__enlace {
     font-size: 1.1rem;
 
     display: inline-block;
+    padding: 0 .9rem;
+    margin-bottom: .9rem;
 
-    margin-right: .7rem;
-    margin-bottom: 1.25rem;
-    margin-left: .7rem;
 }
+
+p {
+    font-family: var(--open-sans);
+}
+
+.boton{
+    font-family: var(--montserrat);
+}
+
 
