@@ -41,7 +41,18 @@ p {
     font-family: var(--montserrat);
 }
 
+@media screen and (min-width: 1024px){
+    .head {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
 
+    .head__navegacion {
+        display: flex;
+        align-items: center;
+    }
+}
 
 
 

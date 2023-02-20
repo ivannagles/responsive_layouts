@@ -29,3 +29,25 @@
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
 }
+.sobre_nosotros__imagen {
+    display: none; 
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre_nosotros {
+        display: flex;
+    }
+    
+    .sobre_nosotros__titulo {
+        margin-top: 50px;
+    }
+
+    .sobre_nosotros__imagen {
+        display: block; 
+    }
+    
+    .sobre_nosotros__contenido {
+        margin-right: 4rem;
+    }
+   
+}

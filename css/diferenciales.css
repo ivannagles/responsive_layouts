@@ -46,3 +46,10 @@
     background-repeat: no-repeat;
     background-position: top 1.25em left 2.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .diferenciales {
+        background-color: var(--background-ceniza-claro);
+        justify-content: space-around;
+    }
+}

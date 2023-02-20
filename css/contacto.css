@@ -28,3 +28,23 @@ p {
     border-color: var(--boton-rojo);
     margin-top: 1.25rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .institucional_container-padre {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        margin-bottom: 30px;;
+    }
+    
+    
+    .container__info-hijo {
+        display: block;
+    }
+
+    .institucional__video {
+        align-self: flex-end;
+        max-width: 375px;
+    }
+}

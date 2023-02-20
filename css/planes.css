@@ -110,3 +110,15 @@
         min-width: 400px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .planes__tarjetas {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tarjetas {
+        min-width: 100px;
+        width: 30%;
+    }
+}
