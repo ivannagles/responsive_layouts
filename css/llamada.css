@@ -32,5 +32,18 @@
     width: 100%;
 }
 
+@media screen and (min-width:768px) {
+    .llamada {
+        background-color: rgb(78, 53, 102);
+            }
 
+    .llamada__texto {
+        max-width: 600px;
+    }
+
+    .sobre_nosotros__contenido {
+         text-align: center;
+         margin-bottom: 50px;
+    }
+}
 
