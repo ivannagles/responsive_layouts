@@ -24,9 +24,20 @@ p {
 }
 
 .contacto__boton {
-    color: var(--boton-rojo);
+    color: rgb(65, 50, 50);
     border-color: var(--boton-rojo);
     margin-top: 1.25rem;
+}
+
+.contacto__boton:hover {
+    border-radius: 1rem;
+    background: linear-gradient(
+    -45deg, #7e0606, rgb(154, 43, 43), #6f0707, rgb(225, 148, 148)
+    );
+    background-size: 800%;
+    transition: 8s;
+    background-position:  500% 80%;
+    color: white;
 }
 
 @media screen and (min-width: 1024px) {

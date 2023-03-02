@@ -33,6 +33,14 @@
 
 }
 
+.head__enlace:hover {
+    background: rgb(164, 9, 9);
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.4rem;
+    font-family: 'Poppins', sans-serif; 
+    text-shadow: 0 0 20px rgb(242, 255, 0);}
+
 p {
     font-family: var(--open-sans);
 }
